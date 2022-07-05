@@ -6,11 +6,19 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+h2{
+    color: white!important;
+    font-weight: bold!important;
+}
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+}
+
+.navbar-nav>li>a{
+    color: #23527c;
+    font-weight: bold;
 }
 
 a:hover {
@@ -133,7 +141,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000000;
 }
 
 .d-bloc .a-btn:hover,
@@ -193,10 +201,10 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
+/*.d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
-}
+}*/
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -218,13 +226,13 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
+/*.l-bloc .navbar a,*/
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
-.l-bloc h1 a,
+/*.l-bloc h1 a,*/
 .l-bloc h2 a,
 .l-bloc h3 a,
 .l-bloc h4 a,
@@ -639,19 +647,19 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+/*h1,*/
 h2,
 h3,
 h4,
 h5,
 h6,
 p,
-label,
-.btn,
-a {
+label/*.btn,
+a*/
+ {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+ /*   color: #575757!important;*/
 }
 
 .container {
@@ -692,7 +700,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+   /* color: #FFFFFF!important;*/
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -722,9 +730,9 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+/*h1 {
     color: #333333!important;
-}
+}*/
 
 h4 {
     color: #333333!important;
@@ -735,8 +743,10 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.col-sm-12>.black {
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .portfolio-thumb {
@@ -775,17 +785,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #23527c;
+    color: #FFFFFF;
 }
 
 .ltc-white {
@@ -817,9 +827,9 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 
-.bg-banniere {
+/*.bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
-}
+}*/
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
