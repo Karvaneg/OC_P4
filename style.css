@@ -18,7 +18,7 @@ button {
 
 .navbar-nav>li>a{
     color: #23527c;
-    font-weight: bold;
+  /*  font-weight: bold;*/
 }
 
 a:hover {
@@ -745,8 +745,8 @@ h4 {
 
 .col-sm-12>.black {
     color: #000000;
-    font-weight: bold;
-    font-size: 15px;
+  /*  font-weight: bold;
+    font-size: 15px;*/
 }
 .col-sm-4, .col-sm-4 li a{
     color:#000000;
