@@ -25,6 +25,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+blockquote p, figure{
+    font-size: 20px;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -48,6 +51,10 @@ a:hover {
 }
 
 .bloc .container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-header{
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -276,9 +283,9 @@ a:hover {
     margin-top: 30px;
 }
 
-.voffset-lg {
+/*.voffset-lg {
     margin-top: 80px;
-}
+}*/
 
 .row-no-gutters {
     margin-right: 0;
@@ -334,7 +341,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -344,6 +351,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -466,7 +474,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: #000000!important;
     background: rgba(0, 0, 0, .3);
 }
 
@@ -606,11 +614,11 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(136, 127, 127, .5);
     border: none;
     line-height: 30px;
     padding: 8px 10px 5px 10px;
-    opacity: 0.5;
+  /*  opacity: 0.5;*/
 }
 
 .close-lightbox:hover,
@@ -624,12 +632,12 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: #000000;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(136, 127, 127, .5);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+  /*  opacity: 0.4;*/
 }
 
 .next-lightbox {
@@ -720,6 +728,7 @@ p {
 .flex {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 h2 {
@@ -728,7 +737,11 @@ h2 {
 }
 .bloc-2_h2{
     max-width: 62rem;
-    margin: auto;
+    margin: auto auto 30px auto;
+}
+.bloc-4_h2{
+    max-width: 42rem;
+    margin: auto auto 30px auto;
 }
 
 h3 {

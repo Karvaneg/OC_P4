@@ -1861,10 +1861,9 @@ abbr[title] {
 }
 
 blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
+    padding: 10px 33px;
+    margin: 0 0 0px;
     font-size: 17.5px;
-    border-left: 5px solid #eee
 }
 
 blockquote ol:last-child,
@@ -2014,10 +2013,10 @@ pre code {
     margin-left: auto
 }
 
-.row {
+/*.row {
     margin-right: -15px;
     margin-left: -15px
-}
+}*/
 
 .col-lg-1,
 .col-lg-10,
