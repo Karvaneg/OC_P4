@@ -1,29 +1,43 @@
-<!doctype html>
-<html lang="Default">
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
-
-    
-<!-- Analytics -->
  
-<!-- Analytics END -->
+<!doctype html>
+	<html lang="fr" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<meta name="description" content="Formulaire de contact de l'Agence La PAnthère. Entreprise de Web Design à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet."">
+		<meta name="robots" content="index, follow"/>
+		<meta property="og:title" content="Formulaire de contact"/>
+		<meta property="og:site_name" content="La Panthère"/>
+		<meta property="og:url" content="https://karvaneg.github.io/OC_P4/contact.html"/>
+		<meta property="og:type" content="Formulaire de contact" />
+		<meta property="og:description" content="Formulaire de contact de l'Agence La PAnthère. Entreprise de Web Design à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet."/>
+		<meta property="og:image" content="https://karvaneg.github.io/OC_P4/img/logo.png"/>
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:alt" content="Logo Agence de Web Design La Panthère">
+		<meta property="og:image:width" content="533px">
+		<meta property="og:image:height" content="533px">
+		<!--Favicon-->
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/site.webmanifest">
+		<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#065eb0">
+		<meta name="apple-mobile-web-app-title" content="La Panth&egrave;re">
+		<meta name="application-name" content="La Panth&egrave;re">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="theme-color" content="#ffffff">
+		<!--Favicon END-->
+		<link rel="preload" href="./fonts/et-line.woff" as="font" type="font/woff" crossorigin="anonymous">
+		<link rel="stylesheet" href="./fonts/et-line.woff" type="font/woff"/>
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+		
+		<title>Contact - La Panthère - Agence de Web Design à Lyon</title>
+	<!-- Analytics -->
+		<!--Ajouter le code fourni par Google Analytics -->
+	<!-- Analytics END -->
     
 </head>
 <body>
@@ -35,7 +49,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo La Panthère, agence de web design" width="300" height="55" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -45,10 +59,8 @@
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
+					<li class="lien_nav_actif">
+						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -58,16 +70,18 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<!--<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-1-hero">-->
+<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-6">
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
+				<img src="img/logo.png" class="center-block image-resize-mode-contact" width="100" height="100" alt="Logo Panthère" />
 				<h1 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
 				</h1>
 				<p class="text-center mg-lg tc-white tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+					Parlez-nous de votre projet en complétant le <a href="#formulaire_contact" aria-label="Aller au formulaire de contact" class="ltc-white bold-link">formulaire</a> ci-dessous.
 				</p>
 			</div>
 		</div>
@@ -78,29 +92,32 @@
 <!-- bloc-7 -->
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row" id="formulaire_contact">
 			<div class="col-sm-6">
-				<form method="post" action="/includes/form_1.php" id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<h2>&Eacute;crivez-nous !</h2>
+				<p>Les champs avec un astérisque <abbr title="Champ requis">*</abbr> sont obligatoires.</p>
+				<form method="post" action="/includes/form_1.php" id="form_1" novalidate success-msg="Votre message a bien été envoyé." fail-msg="Il semble que notre serveur de messagerie ne réponde pas. Veuillez nous en excuser !">
 					<div class="form-group">
-						<label>
+						<label for="nom">
+							<abbr title="Champ requis">*</abbr>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="nom" name="nom" class="form-control" required autocomplete="name"/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email"><abbr title="Champ requis">*</abbr>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" name="email" class="form-control" type="email" required autocomplete="email" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="info"><abbr title="Champ requis">*</abbr>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="texte"><abbr title="Champ requis">*</abbr>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -109,9 +126,12 @@
 					</button>
 				</form>
 			</div>
-			<div class="col-sm-6">
+			<div class="coordonnees">
+				<h2>Coordonnées</h2>
 				<p>
-					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					<strong>E-mail </strong>: <a href="mailto:contact@agencelapanthere.com">contact@agencelapanthere.com</a><br /><br />
+					<strong>Adresse </strong>:	
+						2 place Sathonay, 69001 Lyon<br /><br />Ouvert de 9h à 18h, du lundi au vendredi.
 				</p>
 			</div>
 		</div>
@@ -129,28 +149,28 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center black">
 					Agence La Panthère - Agence web basée à Lyon.<br>
 				</p>
-				<div class="row row-no-gutters social">
+				<div class="flex social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com/home?lang=fr" aria-label="twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://fr-fr.facebook.com" aria-label="facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com" aria-label="dribbble"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com" aria-label="instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
@@ -162,7 +182,13 @@
 
 </div>
 <!-- Principal conteneur END -->
-    
+<script src="./js/jquery-2.1.0.js" defer></script>
+<script src="./js/bootstrap.js" defer></script>
+<script src="./js/blocs.js" defer></script>
+<script src="./js/jquery.touchSwipe.js" defer></script>
+<script src="./js/gmaps.js" defer></script>
+<script src="./js/jqBootstrapValidation.js" defer></script>
+<script src="./js/formHandler.js" defer></script>   
 
 </body>
 </html>
