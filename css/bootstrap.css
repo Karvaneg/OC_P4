@@ -1439,10 +1439,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-/*.img-responsive{
-    max-width: 100%;
-    height: auto;
-}*/
 
 .img-rounded {
     border-radius: 6px
@@ -2012,11 +2008,6 @@ pre code {
     margin-right: auto;
     margin-left: auto
 }
-
-/*.row {
-    margin-right: -15px;
-    margin-left: -15px
-}*/
 
 .col-lg-1,
 .col-lg-10,
@@ -4289,9 +4280,9 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
     border-right: 4px solid transparent;
-    border-left: 4px solid transparent
+    border-left: 4px solid transparent;
+    border-top: 4px solid\9
 }
 
 .dropdown,
@@ -4376,20 +4367,19 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
-    display: block
+    display: block;
 }
 
 .open>a {
-    outline: 0
+    outline: 0;
 }
 
 .dropdown-menu-right {
     right: 0;
-    left: auto
+    left: auto;
 }
 
 .dropdown-menu-left {
@@ -5127,7 +5117,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
