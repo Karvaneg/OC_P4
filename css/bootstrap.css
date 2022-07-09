@@ -6121,7 +6121,7 @@ a.thumbnail:hover {
 }
 
 .alert-warning {
-    color: #8a6d3b;
+    color: red;
     background-color: #fcf8e3;
     border-color: #faebcc
 }

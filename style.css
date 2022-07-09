@@ -330,7 +330,7 @@ blockquote p, figure{
 .nav > li a:focus,
 .lien_nav_actif {
     background: transparent;
-    text-decoration: underline;
+    border-bottom: #000000 1px solid;
 }
 
 .navbar-toggle {
@@ -742,6 +742,10 @@ h4 {
     justify-content: center;
     align-items: center;
 }
+.coordonnees{
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .coordonnees a{
     color:#006EB2!important;
 }
@@ -756,7 +760,7 @@ abbr[title]{
     cursor: pointer;
     border:none;
     text-decoration: none;
-    color: red;
+    color: #CC1F1F;
     font-size: 20px;
 }
 

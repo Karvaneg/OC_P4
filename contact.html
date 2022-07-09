@@ -1,10 +1,9 @@
- 
 <!doctype html>
 	<html lang="fr" prefix="og: http://ogp.me/ns#">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-		<meta name="description" content="Formulaire de contact de l'Agence La PAnthère. Entreprise de Web Design à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet."">
+		<meta name="description" content="Formulaire de contact de l'Agence La Panthère. Entreprise de Web Design à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet.">
 		<meta name="robots" content="index, follow"/>
 		<meta property="og:title" content="Formulaire de contact"/>
 		<meta property="og:site_name" content="La Panthère"/>
@@ -96,30 +95,31 @@
 			<div class="col-sm-6">
 				<h2>&Eacute;crivez-nous !</h2>
 				<p>Les champs avec un astérisque <abbr title="Champ requis">*</abbr> sont obligatoires.</p>
-				<form method="post" action="/includes/form_1.php" id="form_1" novalidate success-msg="Votre message a bien été envoyé." fail-msg="Il semble que notre serveur de messagerie ne réponde pas. Veuillez nous en excuser !">
+				<form method="post" action="/includes/form_1.php" id="form_1" data-success-msg="Votre message a bien été envoyé." data-fail-msg="Il semble que notre serveur de messagerie ne réponde pas. Veuillez nous en excuser !">
 					<div class="form-group">
 						<label for="nom">
 							<abbr title="Champ requis">*</abbr>
 							Nom
 						</label>
-						<input id="nom" name="nom" class="form-control" required autocomplete="name"/>
+						<input type="text" id="nom" name="nom" class="form-control"
+						placeholder="Prénom Nom" required="" autocomplete="name"/>
 					</div>
 					<div class="form-group">
 						<label for="email"><abbr title="Champ requis">*</abbr>
 							Adresse email
 						</label>
-						<input id="email" name="email" class="form-control" type="email" required autocomplete="email" />
+						<input id="email" name="email" class="form-control" type="email" required="" placeholder="monadresse@email.fr" pattern="[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([_\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})" autocomplete="email" />
 					</div>
 					<div class="form-group">
 						<label for="info"><abbr title="Champ requis">*</abbr>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="" required id="input_504" />
+						<input class="form-control" type="text" required="" id="info" placeholder="Facebook, bouche à oreille,..." />
 					</div>
 					<div class="form-group">
-						<label for="texte"><abbr title="Champ requis">*</abbr>
+						<label for="message"><abbr title="Champ requis">*</abbr>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" name="message" class="form-control" rows="4" cols="50" required="" placeholder="Bonjour,..."></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
