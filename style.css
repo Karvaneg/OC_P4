@@ -655,7 +655,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: #000000;
     background: none;
     text-align: center;
 }
@@ -1101,9 +1101,15 @@ abbr[title]{
     }
 }
 
-/*@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+@media (max-width: 490px) {
+    .close-lightbox, .prev-lightbox, .next-lightbox{
+        color: #ffffff;
     }
-}*/
+    .close-lightbox:hover, .prev-lightbox:hover, .next-lightbox:hover{
+        border: 1px solid #ffffff;
+    }
+    .lightbox-caption{
+        font-size: 12px;
+    }
+
+}
