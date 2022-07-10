@@ -6,6 +6,7 @@
     "description": "L'application qui vous donne accès à la meilleure entreprise de Web Design de Lyon !",
     "id": "../../index.html?utm_source=homescreen",
     "start_url": "../../index.html?utm_source=homescreen",
+    "scope": "../../index.html?utm_source=homescreen",
     "display": "standalone",
     "icons": [
         {
