@@ -5,8 +5,8 @@
     "short_name": "La Panth\u00e8re",
     "description": "L'application qui vous donne accès à la meilleure entreprise de Web Design de Lyon !",
     "id": "../../index.html?utm_source=homescreen",
-    "start_url": "../../index.html?utm_source=launcher",
-    "scope": "../../js/sw.js",
+    "start_url": "../../index.html",
+    "scope": "../../index.html",
     "display": "standalone",
     "icons": [
         {
