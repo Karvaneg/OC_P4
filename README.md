@@ -49,6 +49,59 @@ Sophie Vasseur - Fondatrice de l'agence La Panthère
 
 * Écrire un code HTML et CSS maintenable
 
+## Evaluation
+
+___Évaluation___ : samedi 16 juillet 2022
+#### -> `Projet validé`
+
+
+### Remarques sur l'évaluation
+
+1. Réaliser une recherche des bonnes pratiques en développement web
+
+ __-> Validé.__
+
+
+
+2. Optimiser le référencement d'un site web
+
+ __-> Validé__
+
+
+
+3. Optimiser la taille et la vitesse d’un site web
+
+  __-> Validé.__
+
+
+
+4. Assurer l'accessibilité d'un site web
+
+  __-> Validé.__
+
+
+
+5. Écrire un code HTML et CSS maintenable
+
+  __-> Validé.__
+
+
+### Livrables
+
+___Points forts___ : 
+
+__- rapport d'optimisation claire et detaillé__ 
+
+__- présentation bien faite__
+
+__- argumentation pertinente__
+
+
+### Soutenance
+
+__bon  courage pour la suite__
+
+
 ## Ressources utilisées
 
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr) - Outil open source automatisé permettant d'améliorer les performances, la qualité et l'exactitude de vos applications Web.
